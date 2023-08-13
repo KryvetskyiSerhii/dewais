@@ -15,7 +15,7 @@ export const Form = () => {
     setUserName(e.target.value);
   };
 
-  const handleSubmitForm = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmitForm = (e: FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
     dispatch(fetchUser(userName));
   };

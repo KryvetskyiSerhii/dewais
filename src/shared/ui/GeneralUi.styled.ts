@@ -100,10 +100,6 @@ export const LoaderStyled = styled.div`
   transition: border-top-color 0.3s ease-in-out;
   margin: 0 auto;
 
-  &.loading {
-    border-top-color: transparent;
-  }
-
   @keyframes spin {
     to {
       transform: rotate(360deg);
